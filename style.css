@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 80%;
+    width: 40%;
+    background-color: rgba(216, 112, 147, 0.46);
+    position: absolute;
+    margin-top: 5%;
+    left: 30%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 140px;
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.one{
+    position: absolute;
+    right: 3%;
+    font-size: 20px;
+    color: black;
+}
+img{
+    height: 78%;
+    width: 82%;
+    margin-top: 11%;
+    object-fit: cover;
+    background-position: center;
+    position: absolute;
+    
+    margin-left: 9%;
+}
